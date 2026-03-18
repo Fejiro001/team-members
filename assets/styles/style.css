@@ -1,0 +1,12 @@
+@import "./reset.css";
+
+:root {
+  --primary-color: rgb(76, 0, 255);
+  --header-footer-color:  rgb(56, 52, 66);
+  --text-color: rgb(254, 253, 255);
+}
+
+.container {
+  max-width: min(100% - 30px), 1080px;
+  margin-inline: auto;
+}
