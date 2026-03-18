@@ -150,17 +150,33 @@ footer {
   color: var(--text-color);
 }
 
+.hero-container {
+  padding-inline: 10rem;
+}
+
 .hero-container h2 {
   font-size: 5rem;
 }
 
 .hero-container p {
   font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .hero-container button {
+  margin-top: 2.5rem;
+}
+
+button {
   background-color: var(--primary-color);
+  font-size: 1.6rem;
   padding: 1rem;
   border-radius: 5px;
   color: var(--text-color);
+  width: 15rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  width: 20rem;
 }
