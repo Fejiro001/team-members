@@ -47,13 +47,13 @@ h1 {
   color: var(--text-color);
 }
 
-/*main section */
-section {
+/* Main Section */
+.team-section {
     padding: 60px 20px;
     text-align: center;
 }
 
-section h2 {
+.team-section h2 {
     font-size: 30px;
     margin-bottom: 40px;
 }
@@ -90,6 +90,47 @@ section ul li p:first-of-type {
 section ul li p:last-of-type {
     font-size: 14px;
     color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: var(--header-footer-color);
+  color: white;
+  padding: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: grid;
+  width: 50%;
+}
+
+input, textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+form button {
+  margin-top: 25px;
+  width: fit-content;
+  justify-self: center;
+}
+
+footer {
+  background-color: var(--header-footer-color);
+  text-align: center;
+  color: white;
+  height: 60px;
+  font-size: 14px;
 }
 
 /* RESPONSIVE (mobile) */
