@@ -2,7 +2,8 @@
 
 :root {
   --primary-color: rgb(76, 0, 255);
-  --header-footer-color: rgb(56, 52, 66);
+  --header-footer-color: rgb(0, 0, 0);
+  --section-color: rgb(56, 52, 66);
   --text-color: rgb(254, 253, 255);
 }
 
@@ -135,7 +136,7 @@ section ul li p:last-of-type {
 
 /* Contact Section */
 .contact-section {
-  background-color: var(--header-footer-color);
+  background-color: var(--section-color);
   color: white;
   padding: 40px;
 }
@@ -173,6 +174,7 @@ footer {
   color: white;
   height: 60px;
   font-size: 14px;
+  padding: 1rem 0;
 }
 
 /* RESPONSIVE (mobile) */
